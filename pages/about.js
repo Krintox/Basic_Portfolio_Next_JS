@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 
 export default function About() {
@@ -7,7 +8,7 @@ export default function About() {
       <section class="about-me" id="about-me">
         <div class="abt-me-div">
             <div class="avatar-img">
-                <img src="https://jugalsuggala.netlify.app/Images/about-image.png" alt="avatar-image" />
+                <Image src="https://jugalsuggala.netlify.app/Images/about-image.png" alt="avatar-image" width='320' height='420' />
             </div>
             <div class="abt-me-txt">
                 <h1 class="about-heading">About <span>Me</span></h1>

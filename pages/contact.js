@@ -11,7 +11,7 @@ export default function Contact() {
 
         <div class="contact">
             <div class="contact-image">
-                <img src="https://jugalsuggala.netlify.app/Images/contact-image.png" alt="avatar-image" />
+                <Image src="https://jugalsuggala.netlify.app/Images/contact-image.png" alt="avatar-image" width='280' height='420' />
             </div>
             <div class="contact-form">
                 <form method="post">
